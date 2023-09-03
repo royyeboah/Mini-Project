@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.encryptionsoftware.EncryptionController">
+    <Button fx:id="encryptButton" alignment="CENTER" layoutX="250.0" layoutY="355.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="101.0" style="-fx-background-color: #8cfc03;" styleClass="hover-button" text="Encrypt a File" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font></Button>
+    <Button fx:id="decryptButton" alignment="CENTER" layoutX="250.0" layoutY="419.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="101.0" style="-fx-background-color: #8cfc03;" styleClass="hover-button" text="Decrypt a File">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font></Button>
+    <VBox fx:id="FolderListBox" layoutX="17.0" layoutY="11.0" prefHeight="328.0" prefWidth="556.0">
+        <children>
+            <Label alignment="CENTER" prefHeight="66.0" prefWidth="556.0" text="Welcome to SecureFileCrypt">
+                <font>
+                    <Font name="System Bold" size="24.0" />
+                </font>
+            </Label>
+            <Label alignment="TOP_LEFT" prefHeight="306.0" prefWidth="553.0" text="In today's digital landscape, the risk of data breaches and unauthorized access to files is a constant threat. Confidential documents, financial records, personal photos, and sensitive corporate data all demand a level of protection that extends beyond traditional safeguards. SecureFileCrypt is your trusted ally in this digital age, providing a user-friendly and highly secure platform to encrypt and decrypt your files with ease." textAlignment="CENTER" wrapText="true">
+                <font>
+                    <Font name="System Bold" size="21.0" />
+                </font>
+                <padding>
+                    <Insets top="20.0" />
+                </padding>
+            </Label>
+        </children>
+    </VBox>
+</AnchorPane>
