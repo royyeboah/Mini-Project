@@ -1,3 +1,3 @@
 # Mini-Project
-Third Year Second Semester Mini Project
+Third Year Second Semester Mini Project.
 Two executable files, one .jar and the other .exe are provided within the repository to easily run the project.
